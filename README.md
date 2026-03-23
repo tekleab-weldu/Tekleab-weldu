@@ -1,6 +1,5 @@
 # Hi, I'm Tekleab 👋
-
-🎓 First-year Computer Science student based in London, UK  
+🎓 First-year Computer Science student at **Royal Holloway, University of London**
 💻 Currently building: Java · HTML · CSS  
 🌍 I speak: English · Tigrinya · Arabic · Geez  
 🏆 2nd place out of 700 students — UEL Mathematics Competition 2022  
