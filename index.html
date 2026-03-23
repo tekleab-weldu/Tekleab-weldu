@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tekleab Weldu | Computer Science Student</title>
+  <style>
+
+    /* ── RESET & BASE ── */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      color: #2d3748;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #00b4d8;
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+    }
+
+    header .contact {
+      color: #a8d8ea;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+
+    header .contact a {
+      color: #00b4d8;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    header .contact a:hover { text-decoration: underline; }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    section h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #00b4d8;
+      border-bottom: 2px solid #e8f8fc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* ── ABOUT ── */
+    .about p {
+      line-height: 1.8;
+      color: #4a5568;
+    }
+
+    /* ── SKILLS ── */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      background: #e8f8fc;
+      color: #0d1b2a;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    /* ── ACHIEVEMENTS ── */
+    .achievement {
+      background: #e8f8fc;
+      border-left: 4px solid #00b4d8;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+
+    .achievement strong { color: #0d1b2a; }
+    .achievement p { color: #4a5568; font-size: 0.9rem; margin-top: 4px; }
+
+    /* ── EDUCATION ── */
+    .edu-entry { margin-bottom: 18px; }
+    .edu-entry h3 { color: #0d1b2a; font-size: 1rem; }
+    .edu-entry span { color: #00b4d8; font-size: 0.85rem; }
+    .edu-entry p { color: #4a5568; font-size: 0.9rem; margin-top: 4px; }
+
+    /* ── PROJECTS ── */
+    .project-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    .project-card h3 { color: #0d1b2a; margin-bottom: 6px; }
+    .project-card p { color: #4a5568; font-size: 0.9rem; line-height: 1.6; }
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #00b4d8;
+      font-size: 0.85rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .project-card a:hover { text-decoration: underline; }
+
+    /* ── LANGUAGES ── */
+    .lang-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .lang-tag {
+      background: #0d1b2a;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #a0aec0;
+      font-size: 0.85rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Tekleab Amanuel Weldu</h1>
+    <p>Computer Science Student · Royal Holloway, University of London</p>
+    <p>Seeking Technology & FinTech Internships</p>
+    <div class="contact">
+      <a href="mailto:teku.weldu@gmail.com">teku.weldu@gmail.com</a> ·
+      <a href="https://github.com/tekleab-weldu" target="_blank">github.com/tekleab-weldu</a> ·
+      London, UK
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        First-year Computer Science student with a passion for technology that started long 
+        before university — self-building apps with Thunkable, peer-tutoring database concepts, 
+        and founding a college coding club. Currently developing Java, HTML, and CSS skills. 
+        Multilingual across four languages, bringing strong analytical thinking and a genuine 
+        hunger to keep learning. Seeking a FinTech or technology internship to grow through 
+        real-world experience.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Java (Beginner)</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">SQL & Databases</span>
+        <span class="skill-tag">MS Access</span>
+        <span class="skill-tag">Excel / VBA</span>
+        <span class="skill-tag">Thunkable</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Problem-Solving</span>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+      <h2>Key Achievements</h2>
+      <div class="achievement">
+        <strong>🏆 1st Place — College Mathematics Competition (2022)</strong>
+        <p>Top performer from over 100 students at Croydon College, London.</p>
+      </div>
+      <div class="achievement">
+        <strong>🥈 2nd Place (Team) — University of East London Competition (2022)</strong>
+        <p>Represented my college among 700 students from 48 institutions across London.</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <h2>Education</h2>
+      <div class="edu-entry">
+        <h3>BSc Computer Science</h3>
+        <span>Royal Holloway, University of London · 2024 – Present</span>
+        <p>Studying algorithms, data structures, software engineering, and databases.</p>
+      </div>
+      <div class="edu-entry">
+        <h3>BTEC IT Level 3 Diploma — Distinction</h3>
+        <span>Croydon College · 2022 – 2023</span>
+        <p>Achieved Distinction in all modules. Recognised as Best Team Player.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Personal Profile Website</h3>
+        <p>This website — built from scratch using HTML and CSS as my first web development project. Focused on clean layout, styling, and structure.</p>
+        <a href="https://github.com/tekleab-weldu/my-profile-website" target="_blank">→ View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Thunkable App Development</h3>
+        <p>Self-taught app and game creation using Thunkable before university — provided informal community tech support and built a love for technology.</p>
+      </div>
+      <div class="project-card">
+        <h3>Interactive Excel Maths Sheets</h3>
+        <p>Converted maths homework into interactive Excel sheets with formulas — an early self-initiated project demonstrating data thinking and initiative.</p>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section>
+      <h2>Languages</h2>
+      <div class="lang-list">
+        <span class="lang-tag">English (Fluent)</span>
+        <span class="lang-tag">Tigrinya (Native)</span>
+        <span class="lang-tag">Arabic</span>
+        <span class="lang-tag">Geez</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built with HTML & CSS · Tekleab Amanuel Weldu · 2025</p>
+  </footer>
+
+</body>
+</html>
